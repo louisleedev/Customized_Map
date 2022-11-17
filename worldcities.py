@@ -54,7 +54,7 @@ for lt, ln, name, pop in zip(latitude, longitude, cityname, population):
 for v, v_ad in zip(visits, visit_admin):
     for lt, ln, name, ad, ctry in zip(latitude, longitude, cityname, admin, country):
         if (v == name) and (v_ad == ctry or v_ad == ad):
-            fgv.add_child(folium.Marker(location = [lt, ln], popup = "Visited Place!!", icon = folium.Icon(color = 'blue')))
+            fgv.add_child(folium.Marker(location = [lt, ln], popup = v, icon = folium.Icon(color = 'blue')))
             break
 
 fgp.add_child(folium.GeoJson(data=open('world.json', 'r', encoding = 'utf-8-sig').read(),
