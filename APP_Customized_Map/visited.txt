@@ -1,0 +1,22 @@
+LOCATION,ADMIN
+Hsinchu,Taiwan
+Sapporo,Japan
+Melbourne,Australia
+Koror,Palau
+Shanghai,China
+Suzhou, China
+Hangzhou,China
+Cebu City,Philippines
+Denpasar,Bali
+Kyoto,Japan
+Tokyo,Japan
+Salt Lake City,Utah
+Portland,Oregon
+Seattle,Washington
+Los Angeles,California
+San Francisco,California
+Las Vegas,Nevada
+Lima,Peru
+Cusco,Peru
+Vancouver,British Columbia
+
